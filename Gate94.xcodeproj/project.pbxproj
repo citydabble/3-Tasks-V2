@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC25552119ACC28B000A519B /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25552019ACC28A000A519B /* TaskDetailsViewController.swift */; };
+		BC5B4E6919A2577500C64AB6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B4E6819A2577500C64AB6 /* Task.swift */; };
 		BC9D462A199FEA0F00E2FA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D4629199FEA0F00E2FA05 /* AppDelegate.swift */; };
-		BC9D462C199FEA0F00E2FA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D462B199FEA0F00E2FA05 /* ViewController.swift */; };
 		BC9D462F199FEA0F00E2FA05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9D462D199FEA0F00E2FA05 /* Main.storyboard */; };
 		BC9D4631199FEA0F00E2FA05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9D4630199FEA0F00E2FA05 /* Images.xcassets */; };
 		BC9D463D199FEA0F00E2FA05 /* Gate94Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D463C199FEA0F00E2FA05 /* Gate94Tests.swift */; };
+		BC9D464919A0197600E2FA05 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D464819A0197600E2FA05 /* EditTaskViewController.swift */; };
+		BC9D464B19A01A2000E2FA05 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D464A19A01A2000E2FA05 /* AddTaskViewController.swift */; };
+		BC9D464D19A02CFF00E2FA05 /* AllTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D464C19A02CFF00E2FA05 /* AllTasksViewController.swift */; };
+		BCF3AAF619A5017D00A7FE4D /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3AAF519A5017D00A7FE4D /* constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +30,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC25552019ACC28A000A519B /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskDetailsViewController.swift; path = ../TaskDetailsViewController.swift; sourceTree = "<group>"; };
+		BC5B4E6819A2577500C64AB6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BC5B4E6B19A259BB00C64AB6 /* Gate94-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Gate94-Prefix.pch"; path = "Gate94Tests/Gate94-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		BC9D4624199FEA0F00E2FA05 /* Gate94.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gate94.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D4628199FEA0F00E2FA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9D4629199FEA0F00E2FA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC9D462B199FEA0F00E2FA05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC9D462E199FEA0F00E2FA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC9D4630199FEA0F00E2FA05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC9D4636199FEA0F00E2FA05 /* Gate94Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gate94Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D463B199FEA0F00E2FA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9D463C199FEA0F00E2FA05 /* Gate94Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gate94Tests.swift; sourceTree = "<group>"; };
+		BC9D464819A0197600E2FA05 /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		BC9D464A19A01A2000E2FA05 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		BC9D464C19A02CFF00E2FA05 /* AllTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTasksViewController.swift; sourceTree = "<group>"; };
+		BCF3AAF519A5017D00A7FE4D /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +86,14 @@
 		BC9D4626199FEA0F00E2FA05 /* Gate94 */ = {
 			isa = PBXGroup;
 			children = (
+				BCF3AAF519A5017D00A7FE4D /* constants.swift */,
 				BC9D4629199FEA0F00E2FA05 /* AppDelegate.swift */,
-				BC9D462B199FEA0F00E2FA05 /* ViewController.swift */,
+				BC5B4E6819A2577500C64AB6 /* Task.swift */,
 				BC9D462D199FEA0F00E2FA05 /* Main.storyboard */,
+				BC9D464C19A02CFF00E2FA05 /* AllTasksViewController.swift */,
+				BC25552019ACC28A000A519B /* TaskDetailsViewController.swift */,
+				BC9D464A19A01A2000E2FA05 /* AddTaskViewController.swift */,
+				BC9D464819A0197600E2FA05 /* EditTaskViewController.swift */,
 				BC9D4630199FEA0F00E2FA05 /* Images.xcassets */,
 				BC9D4627199FEA0F00E2FA05 /* Supporting Files */,
 			);
@@ -87,6 +103,7 @@
 		BC9D4627199FEA0F00E2FA05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC5B4E6B19A259BB00C64AB6 /* Gate94-Prefix.pch */,
 				BC9D4628199FEA0F00E2FA05 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -208,8 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9D462C199FEA0F00E2FA05 /* ViewController.swift in Sources */,
+				BC25552119ACC28B000A519B /* TaskDetailsViewController.swift in Sources */,
+				BC9D464B19A01A2000E2FA05 /* AddTaskViewController.swift in Sources */,
+				BC9D464D19A02CFF00E2FA05 /* AllTasksViewController.swift in Sources */,
+				BC5B4E6919A2577500C64AB6 /* Task.swift in Sources */,
+				BC9D464919A0197600E2FA05 /* EditTaskViewController.swift in Sources */,
 				BC9D462A199FEA0F00E2FA05 /* AppDelegate.swift in Sources */,
+				BCF3AAF619A5017D00A7FE4D /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +352,7 @@
 				INFOPLIST_FILE = Gate94/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -341,6 +364,7 @@
 				INFOPLIST_FILE = Gate94/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -397,6 +421,7 @@
 				BC9D4642199FEA0F00E2FA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9D4643199FEA0F00E2FA05 /* Build configuration list for PBXNativeTarget "Gate94Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +430,7 @@
 				BC9D4645199FEA0F00E2FA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
